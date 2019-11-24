@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* .active { */
+    /* background-color: #1a237e; */
+/* } */
+
+.home .memories img, .memory-image {
+    width: 150px;
+    height: 168px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* opacity: 0.5; */
+    /* top: -20px;
+    left: -50px; */
+}
+
+.single-memory-image {
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+
+.home .memories {
+    overflow: hidden;
+    padding-left: 80px;
+}
+
+.fontWeight, .quote, h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+}
+
+.pull-right {
+    float: right;
+}
+
+.cursor {
+    cursor: pointer;
+}
